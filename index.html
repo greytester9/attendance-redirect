@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Redirecting to Zoho People</title>
-    <script>
-      // Automatically open Zoho People Attendance Regularization page in a new tab
-      window.onload = function () {
-        window.open("https://people.zoho.in/gksteels/zp#attendance/entry/regularization", "_blank");
-        // Optional: show a fallback message inside Payroll iframe
-        document.body.innerHTML = "<p>Zoho People has opened in a new tab. If not, <a href='https://people.zoho.in/gksteels/zp#attendance/entry/regularization' target='_blank'>click here</a>.</p>";
-      };
-    </script>
-  </head>
-  <body>
-    <p>Redirecting to Zoho People...</p>
-  </body>
+<html>
+<head>
+  <title>Redirecting to Attendance Regularization</title>
+  <script>
+    // Wait briefly to ensure page loads
+    window.onload = function() {
+      // Open Zoho People in a new tab
+      window.open("https://people.zoho.in/gksteels/zp#attendance/entry/regularization", "_blank");
+    };
+  </script>
+</head>
+<body>
+  <h3>Redirecting to Zoho People...</h3>
+  <p>If nothing happens, <a href="https://people.zoho.in/gksteels/zp#attendance/entry/regularization" target="_blank">click here</a>.</p>
+</body>
 </html>
